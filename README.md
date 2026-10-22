@@ -27,7 +27,13 @@ The Power BI report has two pages:
 
 Open [`dashboard/Supply_Chain_Analytics_Dashboard.pbix`](dashboard/Supply_Chain_Analytics_Dashboard.pbix) in Power BI Desktop. The report was built against a local MySQL database named `supply_chain_db`; update the local source/credentials if your MySQL connection differs.
 
-Screenshots can be added under `images/` after exporting each report page from Power BI.
+### Performance Overview
+
+![Performance Overview dashboard](images/performance-overview.png)
+
+### Delivery Reliability
+
+![Delivery Reliability dashboard](images/delivery-reliability.png)
 
 ## Repository layout
 
@@ -78,3 +84,4 @@ Screenshots can be added under `images/` after exporting each report page from P
 ## Data source and handling
 
 See [`data/README.md`](data/README.md) for the source link, attribution, and handling notes. The raw CSV is not committed: it is large and contains customer-related fields that this report does not need to redistribute.
+
