@@ -1,0 +1,12 @@
+# Ignore local data, credentials, and temporary files.
+/data/raw/
+*.csv
+*.env
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+# The original file remains open in Power BI at the project root; use the organized dashboard copy.
+/Supply_Chain_Analytics_Dashboard.pbix
